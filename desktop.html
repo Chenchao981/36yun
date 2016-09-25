@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>三六云</title>
+        <link rel="stylesheet" href="http://semantic-ui.com/dist/semantic.min.css" media="screen" title="no title">
+        <link rel="stylesheet" href="css/个人首页.css" media="screen" title="no title">
+        <link rel="stylesheet" href="css/弹出框.css" media="screen" title="no title" charset="utf-8">
+    </head>
+    <body>
+
+        <div class="ui segment hu">
+            <div class="ui text menu">
+                <a class="item"><img class="ui tiny image"src="images/logo.png"></a>
+                <div class="right menu">
+
+                    <div class="ui simple dropdown"style="padding:11px 0px 0 10px;margin-right:100px;">
+                        <h5><i class="plus icon"></i>新建 / 导入</h5>
+                        <div class="menu">
+                            <div class="item"><i class="file icon"></i>新建文档</div>
+                            <div class="item"><i class="file text icon"></i>导入文档</div>
+                        </div>
+                    </div>
+
+                    <div class="ui simple dropdown"style="padding-top:5px;">
+                        <img class="ui mini image" src="images/默认头像.png" alt="" />
+                        <div class="menu">
+                            <img class="ui tiny centered image" src="images/默认头像.png">
+                            <p style="text-align:center;font-size:20px;margin:0 100px 0 100px">
+                                Dante
+                            </p>
+                            <p style="text-align:center;font-size:10px">
+                                全栈训练营全栈六组
+                            </p>
+                            <div class="active item">
+                                <h4 class="ui center red aligned header">
+                                    退出登录
+                                </h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="ui basic segment">
+            <div class="ui basic segment dante">
+                <h2>三六云</h2>
+                <div class="ui divider"></div>
+                <table class="ui very basic table">
+                    <thead>
+                        <tr>
+                            <th><p class="meng">文档名</p></th>
+                            <th><p class="meng">协作成员</p></th>
+                            <th><p class="meng">最后保存时间</p></th>
+                            <th><p class="meng">操作</p></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="top aligned">
+                            <td>个人首页.doc</td>
+                            <td>饭特稀、菜太咸</td>
+                            <td>2016-9-20 14:10</td>
+                            <td>
+                                <a href="#"class="xue">编辑</a>
+                                <a href="#"class="xue">删除</a>
+                                <a href="#"class="xue">导出</a>
+                            </td>
+
+                            <div id="divshanchu">
+                              <div class="ui shanchu segment">
+                                  <a style="color:black">确认操作</a>
+                                  <a style="float:right;color:grey">X</a>
+                                  <div class="shanchukongge"></div>
+                                  <p>确认删除文档吗？</p>
+                                  <p>删除后，所有协作者都无法访问此文档。</p>
+                                  <div class="shanchukongge"></div>
+                                  <div class="ui two column grid container">
+                                      <div class="column">
+                                          <button class="ui red button">确认删除</button>
+                                      </div>
+                                      <div class="column">
+                                          <button class="ui black basic button" style="float:right">取消</button>
+                                      </div>
+                                  </div>
+                              </div>
+                            </div>
+
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+        </div>
+
+
+
+
+
+    </body>
+</html>
